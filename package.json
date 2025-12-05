@@ -1,0 +1,17 @@
+{
+  "name": "med-forms",
+  "version": "1.0.0",
+  "description": "Secure HTML → PDF Medical Converter",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/app.js",
+    "start": "NODE_ENV=production node src/app.js"
+  },
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "mustache": "^4.2.0",
+    "pdf-lib": "^1.17.1",
+    "dotenv": "^16.4.5"
+  }
+}
